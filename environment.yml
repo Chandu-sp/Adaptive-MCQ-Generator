@@ -1,0 +1,15 @@
+
+name: mcq_generator
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - streamlit
+  - bcrypt
+  - pip
+  - pip:
+      - google-generativeai
+      - fpdf
+      - uuid
+      - jsonschema
